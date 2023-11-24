@@ -1,0 +1,2414 @@
+{
+  "apis": {
+    "AcceptInquiredSystemEvent": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AcceptInquiredSystemEvent",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ActivateRouterInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ActivateRouterInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AddBandwidthPackageIps": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AddBandwidthPackageIps",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AddTags": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AddTags",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AllocateDedicatedHosts": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AllocateDedicatedHosts",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AllocateEipAddress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AllocateEipAddress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AllocatePublicIpAddress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AllocatePublicIpAddress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ApplyAutoSnapshotPolicy": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ApplyAutoSnapshotPolicy",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AssignIpv6Addresses": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AssignIpv6Addresses",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AssignPrivateIpAddresses": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AssignPrivateIpAddresses",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AssociateEipAddress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AssociateEipAddress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AssociateHaVip": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AssociateHaVip",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AttachClassicLinkVpc": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AttachClassicLinkVpc",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AttachDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AttachDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AttachInstanceRamRole": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AttachInstanceRamRole",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AttachKeyPair": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AttachKeyPair",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AttachNetworkInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AttachNetworkInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AuthorizeSecurityGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AuthorizeSecurityGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "AuthorizeSecurityGroupEgress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "AuthorizeSecurityGroupEgress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CancelAutoSnapshotPolicy": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CancelAutoSnapshotPolicy",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CancelCopyImage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CancelCopyImage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CancelImagePipelineExecution": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CancelImagePipelineExecution",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CancelPhysicalConnection": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CancelPhysicalConnection",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CancelSimulatedSystemEvents": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CancelSimulatedSystemEvents",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CancelTask": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CancelTask",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ConnectRouterInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ConnectRouterInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ConvertNatPublicIpToEip": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ConvertNatPublicIpToEip",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CopyImage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CopyImage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CopySnapshot": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CopySnapshot",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateActivation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateActivation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateAutoProvisioningGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateAutoProvisioningGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateAutoSnapshotPolicy": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateAutoSnapshotPolicy",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateCapacityReservation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateCapacityReservation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateCommand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateCommand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateDedicatedHostCluster": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateDedicatedHostCluster",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateDemand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateDemand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateDeploymentSet": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateDeploymentSet",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateDiagnosticMetricSet": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateDiagnosticMetricSet",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateDiagnosticReport": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateDiagnosticReport",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateElasticityAssurance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateElasticityAssurance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateForwardEntry": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateForwardEntry",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateHaVip": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateHaVip",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateHpcCluster": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateHpcCluster",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateImage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateImage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateImageComponent": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateImageComponent",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateImagePipeline": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateImagePipeline",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateKeyPair": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateKeyPair",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateLaunchTemplate": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateLaunchTemplate",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateLaunchTemplateVersion": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateLaunchTemplateVersion",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateNatGateway": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateNatGateway",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateNetworkInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateNetworkInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateNetworkInterfacePermission": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateNetworkInterfacePermission",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreatePhysicalConnection": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreatePhysicalConnection",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreatePrefixList": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreatePrefixList",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateRouteEntry": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateRouteEntry",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateRouterInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateRouterInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateSecurityGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateSecurityGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateSimulatedSystemEvents": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateSimulatedSystemEvents",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateSnapshot": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateSnapshot",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateSnapshotGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateSnapshotGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateStorageSet": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateStorageSet",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateVSwitch": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateVSwitch",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateVirtualBorderRouter": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateVirtualBorderRouter",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "CreateVpc": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "CreateVpc",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeactivateRouterInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeactivateRouterInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteActivation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteActivation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteAutoProvisioningGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteAutoProvisioningGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteAutoSnapshotPolicy": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteAutoSnapshotPolicy",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteBandwidthPackage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteBandwidthPackage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteCommand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteCommand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteDedicatedHostCluster": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteDedicatedHostCluster",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteDemand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteDemand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteDeploymentSet": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteDeploymentSet",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteDiagnosticMetricSets": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteDiagnosticMetricSets",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteDiagnosticReports": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteDiagnosticReports",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteForwardEntry": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteForwardEntry",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteHaVip": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteHaVip",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteHpcCluster": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteHpcCluster",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteImage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteImage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteImageComponent": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteImageComponent",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteImagePipeline": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteImagePipeline",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteKeyPairs": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteKeyPairs",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteLaunchTemplate": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteLaunchTemplate",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteLaunchTemplateVersion": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteLaunchTemplateVersion",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteNatGateway": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteNatGateway",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteNetworkInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteNetworkInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteNetworkInterfacePermission": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteNetworkInterfacePermission",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeletePhysicalConnection": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeletePhysicalConnection",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeletePrefixList": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeletePrefixList",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteRouteEntry": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteRouteEntry",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteRouterInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteRouterInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteSecurityGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteSecurityGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteSnapshot": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteSnapshot",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteSnapshotGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteSnapshotGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteStorageSet": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteStorageSet",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteVSwitch": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteVSwitch",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteVirtualBorderRouter": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteVirtualBorderRouter",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeleteVpc": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeleteVpc",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DeregisterManagedInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DeregisterManagedInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAccessPoints": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAccessPoints",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAccountAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAccountAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeActivations": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeActivations",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAutoProvisioningGroupHistory": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAutoProvisioningGroupHistory",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAutoProvisioningGroupInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAutoProvisioningGroupInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAutoProvisioningGroups": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAutoProvisioningGroups",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAutoSnapshotPolicyEx": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAutoSnapshotPolicyEx",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeAvailableResource": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeAvailableResource",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeBandwidthLimitation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeBandwidthLimitation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeBandwidthPackages": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeBandwidthPackages",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeCapacityReservationInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeCapacityReservationInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeCapacityReservations": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeCapacityReservations",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeClassicLinkInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeClassicLinkInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeCloudAssistantStatus": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeCloudAssistantStatus",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeClusters": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeClusters",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeCommands": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeCommands",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDedicatedHostAutoRenew": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDedicatedHostAutoRenew",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDedicatedHostClusters": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDedicatedHostClusters",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDedicatedHostTypes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDedicatedHostTypes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDedicatedHosts": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDedicatedHosts",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDemands": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDemands",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDeploymentSetSupportedInstanceTypeFamily": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDeploymentSetSupportedInstanceTypeFamily",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDeploymentSets": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDeploymentSets",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDiagnosticMetricSets": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDiagnosticMetricSets",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDiagnosticMetrics": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDiagnosticMetrics",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDiagnosticReportAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDiagnosticReportAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDiagnosticReports": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDiagnosticReports",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDiskMonitorData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDiskMonitorData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDisks": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDisks",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeDisksFullStatus": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeDisksFullStatus",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeEipAddresses": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeEipAddresses",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeEipMonitorData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeEipMonitorData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeElasticityAssuranceInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeElasticityAssuranceInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeElasticityAssurances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeElasticityAssurances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeEniMonitorData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeEniMonitorData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeForwardTableEntries": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeForwardTableEntries",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeHaVips": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeHaVips",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeHpcClusters": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeHpcClusters",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImageComponents": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImageComponents",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImageFromFamily": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImageFromFamily",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImagePipelineExecutions": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImagePipelineExecutions",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImagePipelines": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImagePipelines",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImageSharePermission": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImageSharePermission",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImageSupportInstanceTypes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImageSupportInstanceTypes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeImages": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeImages",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceAttachmentAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceAttachmentAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceAutoRenewAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceAutoRenewAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceHistoryEvents": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceHistoryEvents",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceMaintenanceAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceMaintenanceAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceModificationPrice": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceModificationPrice",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceMonitorData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceMonitorData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceRamRole": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceRamRole",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceStatus": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceStatus",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceTopology": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceTopology",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceTypeFamilies": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceTypeFamilies",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceTypes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceTypes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstanceVncUrl": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstanceVncUrl",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInstancesFullStatus": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInstancesFullStatus",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInvocationResults": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInvocationResults",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeInvocations": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeInvocations",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeKeyPairs": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeKeyPairs",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeLaunchTemplateVersions": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeLaunchTemplateVersions",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeLaunchTemplates": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeLaunchTemplates",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeLimitation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeLimitation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeManagedInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeManagedInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeNatGateways": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeNatGateways",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeNetworkInterfaceAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeNetworkInterfaceAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeNetworkInterfacePermissions": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeNetworkInterfacePermissions",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeNetworkInterfaces": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeNetworkInterfaces",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeNewProjectEipMonitorData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeNewProjectEipMonitorData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribePhysicalConnections": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribePhysicalConnections",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribePrefixListAssociations": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribePrefixListAssociations",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribePrefixListAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribePrefixListAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribePrefixLists": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribePrefixLists",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribePrice": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribePrice",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeRecommendInstanceType": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeRecommendInstanceType",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeRegions": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeRegions",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeRenewalPrice": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeRenewalPrice",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeReservedInstanceAutoRenewAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeReservedInstanceAutoRenewAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeReservedInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeReservedInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeResourceByTags": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeResourceByTags",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeResourcesModification": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeResourcesModification",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeRouteTables": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeRouteTables",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeRouterInterfaces": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeRouterInterfaces",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSecurityGroupAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSecurityGroupAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSecurityGroupReferences": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSecurityGroupReferences",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSecurityGroups": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSecurityGroups",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSendFileResults": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSendFileResults",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSnapshotGroups": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSnapshotGroups",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSnapshotLinks": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSnapshotLinks",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSnapshotMonitorData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSnapshotMonitorData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSnapshotPackage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSnapshotPackage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSnapshots": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSnapshots",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSnapshotsUsage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSnapshotsUsage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSpotAdvice": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSpotAdvice",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeSpotPriceHistory": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeSpotPriceHistory",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeStorageCapacityUnits": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeStorageCapacityUnits",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeStorageSetDetails": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeStorageSetDetails",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeStorageSets": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeStorageSets",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeTags": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeTags",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeTaskAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeTaskAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeTasks": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeTasks",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeUserBusinessBehavior": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeUserBusinessBehavior",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeUserData": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeUserData",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeVRouters": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeVRouters",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeVSwitches": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeVSwitches",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeVirtualBorderRouters": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeVirtualBorderRouters",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeVirtualBorderRoutersForPhysicalConnection": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeVirtualBorderRoutersForPhysicalConnection",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeVpcs": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeVpcs",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DescribeZones": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DescribeZones",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DetachClassicLinkVpc": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DetachClassicLinkVpc",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DetachDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DetachDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DetachInstanceRamRole": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DetachInstanceRamRole",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DetachKeyPair": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DetachKeyPair",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DetachNetworkInterface": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DetachNetworkInterface",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "DisableActivation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "DisableActivation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "EipFillParams": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "EipFillParams",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "EipFillProduct": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "EipFillProduct",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "EipNotifyPaid": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "EipNotifyPaid",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "EnablePhysicalConnection": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "EnablePhysicalConnection",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ExportImage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ExportImage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ExportSnapshot": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ExportSnapshot",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "GetInstanceConsoleOutput": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "GetInstanceConsoleOutput",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "GetInstanceScreenshot": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "GetInstanceScreenshot",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ImportImage": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ImportImage",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ImportKeyPair": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ImportKeyPair",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "InstallCloudAssistant": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "InstallCloudAssistant",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "InvokeCommand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "InvokeCommand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "JoinResourceGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "JoinResourceGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "JoinSecurityGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "JoinSecurityGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "LeaveSecurityGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "LeaveSecurityGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ListPluginStatus": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ListPluginStatus",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ListTagResources": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ListTagResources",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyAutoProvisioningGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyAutoProvisioningGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyAutoSnapshotPolicy": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyAutoSnapshotPolicy",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyAutoSnapshotPolicyEx": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyAutoSnapshotPolicyEx",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyBandwidthPackageSpec": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyBandwidthPackageSpec",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyCapacityReservation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyCapacityReservation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyCommand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyCommand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDedicatedHostAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDedicatedHostAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDedicatedHostAutoReleaseTime": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDedicatedHostAutoReleaseTime",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDedicatedHostAutoRenewAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDedicatedHostAutoRenewAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDedicatedHostClusterAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDedicatedHostClusterAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDedicatedHostsChargeType": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDedicatedHostsChargeType",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDemand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDemand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDeploymentSetAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDeploymentSetAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDiagnosticMetricSet": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDiagnosticMetricSet",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDiskAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDiskAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDiskChargeType": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDiskChargeType",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyDiskSpec": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyDiskSpec",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyEipAddressAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyEipAddressAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyElasticityAssurance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyElasticityAssurance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyForwardEntry": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyForwardEntry",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyHaVipAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyHaVipAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyHpcClusterAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyHpcClusterAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyImageAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyImageAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyImageShareGroupPermission": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyImageShareGroupPermission",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyImageSharePermission": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyImageSharePermission",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceAttachmentAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceAttachmentAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceAutoReleaseTime": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceAutoReleaseTime",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceAutoRenewAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceAutoRenewAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceChargeType": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceChargeType",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceDeployment": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceDeployment",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceMaintenanceAttributes": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceMaintenanceAttributes",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceMetadataOptions": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceMetadataOptions",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceNetworkSpec": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceNetworkSpec",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceSpec": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceSpec",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceVncPasswd": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceVncPasswd",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyInstanceVpcAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyInstanceVpcAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyLaunchTemplateDefaultVersion": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyLaunchTemplateDefaultVersion",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyManagedInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyManagedInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyNetworkInterfaceAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyNetworkInterfaceAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyPhysicalConnectionAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyPhysicalConnectionAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyPrefixList": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyPrefixList",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyPrepayInstanceSpec": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyPrepayInstanceSpec",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyReservedInstanceAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyReservedInstanceAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyReservedInstanceAutoRenewAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyReservedInstanceAutoRenewAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyReservedInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyReservedInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyRouterInterfaceAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyRouterInterfaceAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyRouterInterfaceSpec": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyRouterInterfaceSpec",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifySecurityGroupAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifySecurityGroupAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifySecurityGroupEgressRule": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifySecurityGroupEgressRule",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifySecurityGroupPolicy": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifySecurityGroupPolicy",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifySecurityGroupRule": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifySecurityGroupRule",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifySnapshotAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifySnapshotAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifySnapshotGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifySnapshotGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyStorageCapacityUnitAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyStorageCapacityUnitAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyStorageSetAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyStorageSetAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyUserBusinessBehavior": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyUserBusinessBehavior",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyVRouterAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyVRouterAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyVSwitchAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyVSwitchAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyVirtualBorderRouterAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyVirtualBorderRouterAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ModifyVpcAttribute": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ModifyVpcAttribute",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "PurchaseReservedInstancesOffering": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "PurchaseReservedInstancesOffering",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "PurchaseStorageCapacityUnit": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "PurchaseStorageCapacityUnit",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReActivateInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReActivateInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReInitDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReInitDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RebootInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RebootInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RebootInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RebootInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RecoverVirtualBorderRouter": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RecoverVirtualBorderRouter",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RedeployDedicatedHost": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RedeployDedicatedHost",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RedeployInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RedeployInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReleaseCapacityReservation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReleaseCapacityReservation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReleaseDedicatedHost": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReleaseDedicatedHost",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReleaseEipAddress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReleaseEipAddress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReleasePublicIpAddress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReleasePublicIpAddress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RemoveBandwidthPackageIps": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RemoveBandwidthPackageIps",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RemoveTags": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RemoveTags",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RenewDedicatedHosts": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RenewDedicatedHosts",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RenewInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RenewInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RenewReservedInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RenewReservedInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReplaceSystemDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReplaceSystemDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ReportInstancesStatus": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ReportInstancesStatus",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ResetDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ResetDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ResetDisks": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ResetDisks",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "ResizeDisk": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "ResizeDisk",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RevokeSecurityGroup": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RevokeSecurityGroup",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RevokeSecurityGroupEgress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RevokeSecurityGroupEgress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RunCommand": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RunCommand",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "RunInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "RunInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "SendFile": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "SendFile",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StartElasticityAssurance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StartElasticityAssurance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StartImagePipelineExecution": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StartImagePipelineExecution",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StartInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StartInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StartInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StartInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StartTerminalSession": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StartTerminalSession",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StopInstance": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StopInstance",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StopInstances": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StopInstances",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "StopInvocation": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StopInvocation",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "TagResources": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "TagResources",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "TerminatePhysicalConnection": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "TerminatePhysicalConnection",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "TerminateVirtualBorderRouter": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "TerminateVirtualBorderRouter",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "UnassignIpv6Addresses": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "UnassignIpv6Addresses",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "UnassignPrivateIpAddresses": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "UnassignPrivateIpAddresses",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "UnassociateEipAddress": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "UnassociateEipAddress",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "UnassociateHaVip": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "UnassociateHaVip",
+      "specName": "Ecs",
+      "controllerName": ""
+    },
+    "UntagResources": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "UntagResources",
+      "specName": "Ecs",
+      "controllerName": ""
+    }
+  },
+  "hasController": false,
+  "specName": "Ecs"
+}

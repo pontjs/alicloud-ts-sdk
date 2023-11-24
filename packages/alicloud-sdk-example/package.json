@@ -1,0 +1,20 @@
+{
+  "name": "alicloud-sdk",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "sdk": "pontx generate",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "pontx-alicloud-sdk-core": "^0.0.2"
+  },
+  "devDependencies": {
+    "pontx-alicloud-sdk-plugin": "^0.0.4",
+    "pontx-alicloud-parser-plugin": "^0.0.3",
+    "pontx-cli": "^0.3.68"
+  },
+  "repository": "https://github.com/pontjs/alicloud-ts-sdk"
+}

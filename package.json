@@ -1,0 +1,10 @@
+{
+  "name": "alicloud-ts-sdk",
+  "private": true,
+  "scripts": {
+    "build": "lerna exec -- npm run build"
+  },
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}

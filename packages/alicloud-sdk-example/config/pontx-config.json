@@ -1,0 +1,17 @@
+{
+	"outDir": "../src/services",
+	"plugins": {
+		"parser": "pontx-alicloud-parser-plugin",
+		"generate": "pontx-alicloud-sdk-plugin"
+	},
+	"origins": [
+		{
+			"url": "https://api.aliyun.com/meta/v1/products/Ecs/versions/2014-05-26/api-docs.json",
+			"name": "Ecs"
+		},
+		{
+			"url": "https://next.api.aliyun.com/meta/v1/products/CS/versions/2015-12-15/api-docs.json",
+			"name": "CS"
+		}
+	]
+}

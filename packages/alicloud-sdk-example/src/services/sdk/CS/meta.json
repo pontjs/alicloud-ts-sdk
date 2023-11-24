@@ -1,0 +1,1129 @@
+{
+  "apis": {
+    "AttachInstances": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "AttachInstances",
+      "path": "/clusters/{ClusterId}/attach",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "AttachInstancesToNodePool": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "AttachInstancesToNodePool",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}/attach",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CancelClusterUpgrade": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CancelClusterUpgrade",
+      "path": "/api/v2/clusters/{ClusterId}/upgrade/cancel",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CancelComponentUpgrade": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CancelComponentUpgrade",
+      "path": "/clusters/{clusterId}/components/{componentId}/cancel",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CancelTask": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CancelTask",
+      "path": "/tasks/{task_id}/cancel",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CancelWorkflow": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CancelWorkflow",
+      "path": "/gs/workflow/{workflowName}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CheckControlPlaneLogEnable": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CheckControlPlaneLogEnable",
+      "path": "/clusters/{ClusterId}/controlplanelog",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CreateAutoscalingConfig": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CreateAutoscalingConfig",
+      "path": "/cluster/{ClusterId}/autoscale/config/",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CreateCluster": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CreateCluster",
+      "path": "/clusters",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CreateClusterNodePool": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CreateClusterNodePool",
+      "path": "/clusters/{ClusterId}/nodepools",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CreateKubernetesTrigger": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CreateKubernetesTrigger",
+      "path": "/triggers",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CreateTemplate": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CreateTemplate",
+      "path": "/templates",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "CreateTrigger": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "CreateTrigger",
+      "path": "/clusters/{cluster_id}/triggers",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteAlertContact": {
+      "method": "delete",
+      "hasBody": false,
+      "apiName": "DeleteAlertContact",
+      "path": "/alert/contacts",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteAlertContactGroup": {
+      "method": "delete",
+      "hasBody": false,
+      "apiName": "DeleteAlertContactGroup",
+      "path": "/alert/contact_groups",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteCluster": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeleteCluster",
+      "path": "/clusters/{ClusterId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteClusterNodepool": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeleteClusterNodepool",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteClusterNodes": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeleteClusterNodes",
+      "path": "/clusters/{ClusterId}/nodes",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteKubernetesTrigger": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeleteKubernetesTrigger",
+      "path": "/triggers/revoke/{Id}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeletePolicyInstance": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeletePolicyInstance",
+      "path": "/clusters/{cluster_id}/policies/{policy_name}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteTemplate": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeleteTemplate",
+      "path": "/templates/{TemplateId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeleteTrigger": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeleteTrigger",
+      "path": "/clusters/[cluster_id]/triggers/[Id]",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DeployPolicyInstance": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DeployPolicyInstance",
+      "path": "/clusters/{cluster_id}/policies/{policy_name}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescirbeWorkflow": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescirbeWorkflow",
+      "path": "/gs/workflow/{workflowName}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeAddons": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeAddons",
+      "path": "/clusters/components/metadata",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterAddonInstance": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterAddonInstance",
+      "path": "/clusters/{ClusterID}/components/{AddonName}/instance",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterAddonMetadata": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterAddonMetadata",
+      "path": "/clusters/{cluster_id}/components/{component_id}/metadata",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterAddonUpgradeStatus": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterAddonUpgradeStatus",
+      "path": "/clusters/{ClusterId}/components/{ComponentId}/upgradestatus",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterAddonsUpgradeStatus": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterAddonsUpgradeStatus",
+      "path": "/clusters/{ClusterId}/components/upgradestatus",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterAddonsVersion": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterAddonsVersion",
+      "path": "/clusters/{ClusterId}/components/version",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterAttachScripts": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterAttachScripts",
+      "path": "/clusters/{ClusterId}/attachscript",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterDetail": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterDetail",
+      "path": "/clusters/{ClusterId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterEvents": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterEvents",
+      "path": "/clusters/{ClusterId}/events",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterLogs": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterLogs",
+      "path": "/clusters/{ClusterId}/logs",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterNodePoolDetail": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterNodePoolDetail",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterNodePools": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterNodePools",
+      "path": "/clusters/{ClusterId}/nodepools",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterNodes": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterNodes",
+      "path": "/clusters/{ClusterId}/nodes",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterResources": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterResources",
+      "path": "/clusters/{ClusterId}/resources",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterTasks": {
+      "method": "get",
+      "hasBody": false,
+      "apiName": "DescribeClusterTasks",
+      "path": "/clusters/{cluster_id}/tasks",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterUserKubeconfig": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterUserKubeconfig",
+      "path": "/k8s/{ClusterId}/user_config",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterV2UserKubeconfig": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterV2UserKubeconfig",
+      "path": "/api/v2/k8s/{ClusterId}/user_config",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusterVuls": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusterVuls",
+      "path": "/clusters/{cluster_id}/vuls",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClusters": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClusters",
+      "path": "/clusters",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeClustersV1": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeClustersV1",
+      "path": "/api/v1/clusters",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeEvents": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeEvents",
+      "path": "/events",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeExternalAgent": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeExternalAgent",
+      "path": "/k8s/{ClusterId}/external/agent/deployment",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeKubernetesVersionMetadata": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeKubernetesVersionMetadata",
+      "path": "/api/v1/metadata/versions",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeNodePoolVuls": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeNodePoolVuls",
+      "path": "/clusters/{cluster_id}/nodepools/{nodepool_id}/vuls",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribePolicies": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribePolicies",
+      "path": "/policies",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribePolicyDetails": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribePolicyDetails",
+      "path": "/policies/{policy_name}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribePolicyGovernanceInCluster": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribePolicyGovernanceInCluster",
+      "path": "/clusters/{cluster_id}/policygovernance",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribePolicyInstances": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribePolicyInstances",
+      "path": "/clusters/{cluster_id}/policies",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribePolicyInstancesStatus": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribePolicyInstancesStatus",
+      "path": "/clusters/{cluster_id}/policies/status",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeSubaccountK8sClusterUserConfig": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeSubaccountK8sClusterUserConfig",
+      "path": "/k8s/{ClusterId}/users/{Uid}/user_config",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeTaskInfo": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeTaskInfo",
+      "path": "/tasks/{task_id}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeTemplateAttribute": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeTemplateAttribute",
+      "path": "/templates/{TemplateId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeTemplates": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeTemplates",
+      "path": "/templates",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeTrigger": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeTrigger",
+      "path": "/clusters/{cluster_id}/triggers",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeUserClusterNamespaces": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeUserClusterNamespaces",
+      "path": "/api/v2/k8s/{ClusterId}/namespaces",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeUserPermission": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeUserPermission",
+      "path": "/permissions/users/{uid}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeUserQuota": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeUserQuota",
+      "path": "/quota",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "DescribeWorkflows": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "DescribeWorkflows",
+      "path": "/gs/workflows",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "FixNodePoolVuls": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "FixNodePoolVuls",
+      "path": "/clusters/{cluster_id}/nodepools/{nodepool_id}/vuls/fix",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "GetClusterCheck": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "GetClusterCheck",
+      "path": "/clusters/{cluster_id}/checks/{check_id}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "GetKubernetesTrigger": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "GetKubernetesTrigger",
+      "path": "/triggers/{ClusterId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "GetUpgradeStatus": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "GetUpgradeStatus",
+      "path": "/api/v2/clusters/{ClusterId}/upgrade/status",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "GrantPermissions": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "GrantPermissions",
+      "path": "/permissions/users/{uid}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "InstallClusterAddons": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "InstallClusterAddons",
+      "path": "/clusters/{ClusterId}/components/install",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ListClusterChecks": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ListClusterChecks",
+      "path": "/clusters/{cluster_id}/checks",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ListTagResources": {
+      "method": "get",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ListTagResources",
+      "path": "/tags",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "MigrateCluster": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "MigrateCluster",
+      "path": "/clusters/{cluster_id}/migrate",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ModifyCluster": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ModifyCluster",
+      "path": "/api/v2/clusters/{ClusterId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ModifyClusterAddon": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ModifyClusterAddon",
+      "path": "/clusters/{cluster_id}/components/{component_id}/config",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ModifyClusterNodePool": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ModifyClusterNodePool",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ModifyClusterTags": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ModifyClusterTags",
+      "path": "/clusters/{ClusterId}/tags",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ModifyNodePoolNodeConfig": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ModifyNodePoolNodeConfig",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}/node_config",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ModifyPolicyInstance": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ModifyPolicyInstance",
+      "path": "/clusters/{cluster_id}/policies/{policy_name}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "OpenAckService": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "OpenAckService",
+      "path": "/service/open",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "PauseClusterUpgrade": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "PauseClusterUpgrade",
+      "path": "/api/v2/clusters/{ClusterId}/upgrade/pause",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "PauseComponentUpgrade": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "PauseComponentUpgrade",
+      "path": "/clusters/{clusterid}/components/{componentid}/pause",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "PauseTask": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "PauseTask",
+      "path": "/tasks/{task_id}/pause",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "RemoveNodePoolNodes": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "RemoveNodePoolNodes",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}/nodes",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "RemoveWorkflow": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "RemoveWorkflow",
+      "path": "/gs/workflow/{workflowName}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "RepairClusterNodePool": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "RepairClusterNodePool",
+      "path": "/clusters/{cluster_id}/nodepools/{nodepool_id}/repair",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ResumeComponentUpgrade": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ResumeComponentUpgrade",
+      "path": "/clusters/{clusterid}/components/{componentid}/resume",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ResumeTask": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ResumeTask",
+      "path": "/tasks/{task_id}/resume",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ResumeUpgradeCluster": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ResumeUpgradeCluster",
+      "path": "/api/v2/clusters/{ClusterId}/upgrade/resume",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "RunClusterCheck": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "RunClusterCheck",
+      "path": "/clusters/{cluster_id}/checks",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ScaleClusterNodePool": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ScaleClusterNodePool",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "ScanClusterVuls": {
+      "method": "post",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "ScanClusterVuls",
+      "path": "/clusters/{cluster_id}/vuls/scan",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "StartAlert": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StartAlert",
+      "path": "/alert/{ClusterId}/alert_rule/start",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "StartWorkflow": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "StartWorkflow",
+      "path": "/gs/workflow",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "StopAlert": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "StopAlert",
+      "path": "/alert/{ClusterId}/alert_rule/stop",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "SyncClusterNodePool": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "SyncClusterNodePool",
+      "path": "/clusters/{ClusterId}/sync_nodepools",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "TagResources": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "TagResources",
+      "path": "/tags",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UnInstallClusterAddons": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UnInstallClusterAddons",
+      "path": "/clusters/{ClusterId}/components/uninstall",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UntagResources": {
+      "method": "delete",
+      "hasBody": false,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UntagResources",
+      "path": "/tags",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpdateContactGroupForAlert": {
+      "method": "post",
+      "hasBody": false,
+      "apiName": "UpdateContactGroupForAlert",
+      "path": "/alert/{ClusterId}/alert_rule/contact_groups",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpdateControlPlaneLog": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UpdateControlPlaneLog",
+      "path": "/clusters/{ClusterId}/controlplanelog",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpdateK8sClusterUserConfigExpire": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UpdateK8sClusterUserConfigExpire",
+      "path": "/k8s/{ClusterId}/user_config/expire",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpdateTemplate": {
+      "method": "put",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UpdateTemplate",
+      "path": "/templates/{TemplateId}",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpgradeCluster": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UpgradeCluster",
+      "path": "/api/v2/clusters/{ClusterId}/upgrade",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpgradeClusterAddons": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UpgradeClusterAddons",
+      "path": "/clusters/{ClusterId}/components/upgrade",
+      "specName": "CS",
+      "controllerName": ""
+    },
+    "UpgradeClusterNodepool": {
+      "method": "post",
+      "hasBody": true,
+      "consumes": [
+        "application/json"
+      ],
+      "apiName": "UpgradeClusterNodepool",
+      "path": "/clusters/{ClusterId}/nodepools/{NodepoolId}/upgrade",
+      "specName": "CS",
+      "controllerName": ""
+    }
+  },
+  "hasController": false,
+  "specName": "CS"
+}
